@@ -1,0 +1,186 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+#descri{
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    font-size: 250%;
+}
+
+#descri2{
+    position: absolute;
+    top: 9%;
+    left: 5%;
+    font-size: 200%;
+}
+
+#name_descri{
+   position: absolute;
+    top: 12%;
+    left: 10%;
+    font-size: 250%;
+}
+
+#name_form{
+    position: absolute;
+    top: 19%;
+    left: 10%;
+    width: 70%;
+    height: 5%;
+    font-size: 250%;
+    border: solid 2px;
+    border-radius: 5%;
+}
+
+#gakka_descri{
+    position: absolute;
+    top: 27%;
+    left: 10%;
+    font-size: 250%;
+}
+
+#gakka_form{
+    position: absolute;
+    top: 34%;
+    left: 10%;
+    width: 70%;
+    height: 5%;
+    font-size: 250%;
+    border: solid 2px;
+    border-radius: 5%;
+}
+
+#course_descri{
+    position: absolute;
+    top: 42%;
+    left: 10%;
+    font-size: 250%;
+}
+
+#course_form{
+    position: absolute;
+    top: 49%;
+    left: 10%;
+    width: 70%;
+    height: 5%;
+    font-size: 250%;
+    border: solid 2px;
+    border-radius: 5%;
+}
+
+#schoolyear_descri{
+    position: absolute;
+    top: 55%;
+    left: 10%;
+    font-size: 250%;
+}
+
+#schoolyear_form{
+    position: absolute;
+    top: 62%;
+    left: 10%;
+    width: 40%;
+    height: 5%;
+    font-size: 250%;
+    border: solid 2px;
+    border-radius: 5%;
+}
+
+#gender_descri{
+    position: absolute;
+    top: 62%;
+    left: 10%;
+    font-size: 250%;
+}
+
+#gender_form{
+    position: absolute;
+    top: 68%;
+    left: 10%;
+    width: 30%;
+    height: 5%;
+    font-size: 250%;
+    border: solid 2px;
+    border-radius: 5%;
+}
+
+#age_descri{
+    position: absolute;
+    top: 75%;
+    left: 10%;
+    font-size: 250%;
+}
+
+#age_form{
+    position: absolute;
+    top: 82%;
+    left: 10%;
+    width: 20%;
+    height: 5%;
+    font-size: 250%;
+    border: solid 2px;
+    border-radius: 5%;
+    text-align: left;
+}
+
+#profile_descri{
+    position: absolute;
+    top: 68%;
+    left: 10%;
+    font-size: 250%;
+}
+
+#profile_form{
+    position: absolute;
+    top: 76%;
+    left: 10%;
+    width: 80%;
+    height: 20%;
+    font-size: 250%;
+    border: solid 2px;
+    border-radius: 5%;
+}
+
+#sub_button{
+    position: absolute;
+    top: 100%;
+    left: 20%;
+    width: 60%;
+    height: 6%;
+    border-radius: 60px;
+    border-style: none;
+    text-align: center;
+    font-size: 400%;
+    color: #ffffff;
+    background-color: #f8a442;
+    margin-bottom: 20%;
+}
+
+.error_name_text {
+    position: fixed;
+    top: 23%;
+    left: 10%;
+    font-size: 240%;
+    color: red;
+}
+
+.error_department_text {
+    position: fixed;
+    top: 37%;
+    left: 10%;
+    font-size: 240%;
+    color: red;
+}
+
+.error_schoolYear_text {
+    position: fixed;
+    top: 62%;
+    left: 10%;
+    font-size: 240%;
+    color: red;
+}
+
+

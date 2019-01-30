@@ -1,0 +1,111 @@
+body{
+    font-family: 'Roboto', sans-serif; 
+ }
+ /*ヘッダー*/
+ header{
+     position: fixed;
+     top: 0%;
+     left: 0%;
+     width: 100%;
+     height: 8%;
+     background-color: #f8a442;
+     z-index: 20;
+ }
+ 
+ #block_page{
+     position:fixed;
+     top: 0;
+     left: 53%;
+     width: 13%;
+     height: auto;
+     z-index: 30;   
+ }
+ 
+ #home_icon{
+     position: fixed;
+     top: 1.5%;
+     left: 10%;
+     width: 8%;
+ }
+ 
+ #chat_icon{
+     position: fixed;
+     top: 1.5%;
+     left: 33%;
+     width: 8%;
+ }
+
+ #white_icon{
+     position: fixed;
+     top: 1.5%;
+     left: 57%;
+     width: 8%;
+ }
+
+ #search_icon{
+     position: fixed;
+     top: 1.5%;
+     left: 80%;
+     width: 8%;
+ }
+
+ /*ユーザ関連クラス*/
+ main{
+     position: absolute;
+     overflow: scroll;
+     top: 8%;
+     left: 0;
+     width: 100%;
+     height: 92%;
+     background-color: white;
+     z-index: 10;
+ }
+
+ .chat_form{
+     position: relative;
+     width: 100%;
+     height: 11.5%;
+     background-color: white;
+     border-bottom: 1px solid rgba(12, 13, 14,0.5);
+ }
+
+ .user_image{
+     position: absolute;
+     top: 10%;
+     left: 5%;
+     width: 13.5%;
+     height: 13vw;
+     object-fit: cover;
+     border-radius: 50%;
+ }
+
+ .user_name{
+     position: absolute;
+     top: -35%;
+     left: 27%;
+     color: black;
+     font-size: 370%;
+ }
+
+ .latest_message{
+     position: absolute;
+     top: 30%;
+     left: 27%;
+     font-size: 230%;
+     width: 50%;
+     color: rgba(12, 13, 14,0.5);
+     overflow: hidden;
+     text-overflow: ellipsis;
+     white-space: nowrap;
+ }
+ /*もしもデータが存在しない場合*/
+ #not_frient{
+     display: none;
+     position: absolute;
+     top: 10%;
+     left: 5%;
+     width: 90%;
+     font-size: 280%;
+     text-align: center;
+     color: red;
+ }

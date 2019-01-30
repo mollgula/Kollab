@@ -1,0 +1,59 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.logo-space {
+    margin-top: 5vh;
+    padding-bottom: 4vh;
+    margin-bottom: 8vh;
+    border-bottom: solid #f8a442 4px;
+    text-align: center;
+}
+
+#logo {
+    width: 30vw;
+    min-width: 300px;
+    height: auto;
+}
+
+.coment-space{
+    margin-left: 13vw;
+}
+
+#coment{
+    width: 50vw;
+    font-size: 2vw;
+}
+
+.qr-space{
+    margin-left: 65vw;
+    margin-top: -11vw;
+}
+
+#qr-code{
+    width: 20vw;
+}
+
+@media screen and (max-width:600px){
+
+.coment-space{
+    margin-left: 2vw;
+    margin-bottom: 20vh;
+}
+
+#coment{
+    width: 96vw;
+    font-size: 3.6vw;
+}
+
+.qr-space{
+    margin-left: 17vw;
+}
+
+#qr-code{
+    width: 66vw;
+}
+
+}

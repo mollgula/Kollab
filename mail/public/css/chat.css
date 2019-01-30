@@ -1,0 +1,156 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+/*ヘッダー*/
+header {
+    position: fixed;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    height: 8%;
+    background-color: #f8a442;
+    z-index: 20;
+}
+
+#home_icon {
+    position: fixed;
+    top: 1.5%;
+    left: 10%;
+    width: 8%;
+}
+
+#chat_icon {
+    position: fixed;
+    top: 1.5%;
+    left: 33%;
+    width: 8%;
+}
+
+#white_icon {
+    position: fixed;
+    top: 1.5%;
+    left: 57%;
+    width: 8%;
+}
+
+#search_icon {
+    position: fixed;
+    top: 1.5%;
+    left: 80%;
+    width: 8%;
+}
+
+main {
+    position: absolute;
+    top: 8%;
+    left: 0;
+    width: 100%;
+    height: 82%;
+    z-index: 10;
+    overflow: scroll;
+}
+
+.partner {
+    position: relative;
+    width: 100%;
+    min-height: 10%;
+}
+
+.partner_image {
+    display: block;
+    position: relative;
+    top: 10%;
+    left: 5%;
+    width: 11%;
+    height: 11vw;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-top: 5%;
+    margin-bottom: -5%;
+}
+
+.partner_name {
+    color: black;
+    margin-top: -95px;
+    margin-left: 185px;
+    margin-bottom: 0;
+    font-size: 50px;;
+
+}
+
+.partner_msg {
+    display: inline-block;
+    position: relative;
+    left: 10%;
+    min-width: 10%;
+    max-width: 60%;
+    min-height: 20%;
+    border-radius: 100px;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    padding-left: 5%;
+    padding-right: 5%;
+    font-size: 300%;
+    word-wrap:break-word;
+    border: 1px solid black;
+}
+
+.my {
+    position: relative;
+    width: 100%;
+    min-height: 10%;
+    height: auto;
+}
+
+.my_msg {
+    display: inline-block;
+    position: relative;
+    left: 30%;
+    min-width: 10%;
+    max-width: 60%;
+    min-height: 20%;
+    border-radius: 100px;
+    margin-left: 10px;
+    font-size: 300%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    padding-left: 5%;
+    padding-right: 5%;
+    word-wrap:break-word;
+    color: white;
+    background-color: #FFBF00;
+    border: none;
+}
+
+footer {
+    position:fixed;
+    top: 90%;
+    left: 0;
+    width: 100%;
+    height: 10vh;
+    z-index: 20;
+    background-color:rgba(12, 14, 14, 0.6);
+}
+
+.input_text {
+    position: absolute;
+    width: 63%;
+    top: 4%;
+    left: 2%;
+    height: 60%;
+    border: solid 1px black;
+    font-size: 350%;
+    border-radius: 10px;
+}
+
+.input_button {
+    position: absolute;
+    width: 25%;
+    height: 6vh;
+    top: 14%;
+    left: 73%;
+    border: none;
+    border-radius: 100px;
+    background-color: #3fc8ff;
+    font-size: 300%;
+}

@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+#icon{
+    position: fixed;
+    top: 10%;
+    width: 30%;
+    height: auto;
+    left: 35%;
+}
+
+#kanryo{
+    position: fixed;
+    top: 38%;
+    left: 10%;
+    font-size: 300%;
+}
+
+#riri-su{
+position: fixed;
+    top: 43%;
+    left: 10%;
+    font-size: 300%;
+}
+
+#anke-to{
+  position: fixed;
+    top: 55%;
+    left: 10%;
+    font-size: 250%;
+}
